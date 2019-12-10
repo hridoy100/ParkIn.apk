@@ -3,7 +3,7 @@ Software Development - CSE 408
 ```
 
 <p align="center">
-  <img src="latex/logo.png" width="100" title="BUET LOGO">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/logo.png" width="100" title="BUET LOGO">
 </p>
 
 ### Department: Computer Science and Engineering
@@ -68,7 +68,7 @@ responds with slots availability.Also,server offers the renter to rent his garag
 to earn money.
 
 <p align="center">
-  <img src="latex/architecture.PNG" width="500" title="architecture">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/architecture.PNG" width="500" title="architecture">
   <br>
   <br>
   Figure 1: Client Server Architecture of ParkIn App
@@ -81,7 +81,7 @@ Figure 3 shows a boundary classSpaceInqUI, a control classSpaceInq Controllerand
 two entity classes: Customer,Vehicle
 
 <p align="center">
-  <img src="latex/class_ag.png" width="500" title="class diagram">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/class_ag.png" width="500" title="class diagram">
   <br>
   <br>
   Figure 2: Class Diagram for Add Garage
@@ -92,21 +92,21 @@ two entity classes: Customer,Vehicle
 Figure 4 shows the sequence diagram for Add garage usecase. Initially a user interface is loaded and renter actor selects garage from the garage list. After selecting the garage,renter gets the details about the garage. Then, renter adds garage via an instance of Add Garage class and Garage constructor creates new instance for the newly added garage. Figure 5 shows the sequence diagram for Inquire Space Subsystem. At first, customer shows a map with nearest locations with available spaces and choose this space while getSpace method shows the details about the space.Now, customer choose the space to rent if it is available. He/She also adds vehicle via selecting from the vehicle list and confirms the space to rent.
 
 <p align="center">
-  <img src="latex/class_inq.png" width="500" title="class diagram: inquire space">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/class_inq.png" width="500" title="class diagram: inquire space">
   <br>
   <br>
   Figure 3: Class Diagram for Inquire Space
 </p>
 
 <p align="center">
-  <img src="latex/seq1.png" title="Sequence Diagram for Add Garage">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/seq1.png" title="Sequence Diagram for Add Garage">
   <br>
   <br>
   Figure 4: Sequence Diagram for Add Garage
 </p>
 
 <p align="center">
-  <img src="latex/seq2.png" title="Sequence Diagram for Inquire Space">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/seq2.png" title="Sequence Diagram for Inquire Space">
   <br>
   <br>
   Figure 5: Sequence Diagram for Inquire Space
@@ -125,9 +125,9 @@ The user needs to install the “ParkIn” application on his Android based devi
 Initially, the user has to register his details with the application for the first time. This is a one-time registration. The user has to enter details like mobile no. as username,name, email-id,address,birthdate etc.
 
 <p align="center">
-  <img src="latex/Account_Creation/CreateAccountActivity.jpg" width="300" title="Create Account Activity">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Account_Creation/CreateAccountActivity.jpg" width="300" title="Create Account Activity">
   
-  <img src="latex/Account_Creation/CreateAccountActivity_when_details_given.jpg" width="300" title="Create Account Activity with Details">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Account_Creation/CreateAccountActivity_when_details_given.jpg" width="300" title="Create Account Activity with Details">
   <br>
   Figure 6: (a) Create Account (b) Create Account Activity with Details
   <br>
@@ -136,9 +136,9 @@ Initially, the user has to register his details with the application for the fir
 All this data will be stored on server and confidentiality will be ensured. User can then book slot and also rent garage slot using same registered account. We use Google’s firebase authentatication system to send verification emails and verify.
 
 <p align="center">
-  <img src="latex/Account_Creation/Verificationemailsenttoemailaddress.jpg" width="300" title="Verification Email Sent">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Account_Creation/Verificationemailsenttoemailaddress.jpg" width="300" title="Verification Email Sent">
   
-  <img src="latex/Account_Creation/email_verified_window.jpg" width="300" title="Email Verified">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Account_Creation/email_verified_window.jpg" width="300" title="Email Verified">
   <br>
   Figure 7: (a) Verification Email (b) Email Verified
   <br>
@@ -150,7 +150,7 @@ All this data will be stored on server and confidentiality will be ensured. User
 Once the user registers, he can use his mobile number to login in future. This authenticates the user. After login he can see his profile,history,available garages,vehicles information etc.
 
 <p align="center">
-  <img src="latex/LogIn/LoginActivity.jpg" width="300" title="Login Activity">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/LogIn/LoginActivity.jpg" width="300" title="Login Activity">
   <br>
   Figure 8: Login Activity
   <br>
@@ -161,7 +161,7 @@ Once the user registers, he can use his mobile number to login in future. This a
 From this window user can go to add garage,vehicle or search for parking location,see ongoing status,notifications and logout.
 
 <p align="center">
-  <img src="latex/HomeActivity.jpg" width="300" title="Home Activity">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/HomeActivity.jpg" width="300" title="Home Activity">
   <br>
   Figure 9: Home Activity
   <br>
@@ -172,9 +172,9 @@ From this window user can go to add garage,vehicle or search for parking locatio
 A user can enter vehicles he wishes to park in vehicle window.
 
 <p align="center">
-  <img src="latex/Vehicle/VehicleEditActivity_used_for_adding_vehicle.jpg" width="300" title="Vehicle Add Window">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Vehicle/VehicleEditActivity_used_for_adding_vehicle.jpg" width="300" title="Vehicle Add Window">
   
-  <img src="latex/Vehicle/Vehicle_List_after_adding_all_types_of_vehicles.jpg" width="300" title="Vehicle List Window">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Vehicle/Vehicle_List_after_adding_all_types_of_vehicles.jpg" width="300" title="Vehicle List Window">
   <br>
   Figure 10: (a) Vehicle Add Window (b) Vehicle List Window
   <br>
@@ -185,8 +185,8 @@ A user can enter vehicles he wishes to park in vehicle window.
 User’s single registered account provides him services of both as the customer and the renter. He can add garage and provide garage spaces for rent in a specified time-interval.To rent spaces, detials of spaces have to be inserted and all records will be stored in the server side database. User can also deactivate the availabilty of his rented space for a certain period and activate then with new initialized date.While adding garage, a record for the user is created as renter and this record will be stored in the database.
 
 <p align="center">
-  <img src="latex/GarageAdd/AddressFragment1.jpg" width="300" title="Garage Add Search">
-  <img src="latex/GarageAdd/AddressFragment2.jpg" width="300" title="Garage Add Search Suggestion">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/GarageAdd/AddressFragment1.jpg" width="300" title="Garage Add Search">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/GarageAdd/AddressFragment2.jpg" width="300" title="Garage Add Search Suggestion">
   <br>
   <br>
   Figure 11: (a) Garage Add Search (b) Garage Add Search Suggestion
@@ -195,8 +195,8 @@ User’s single registered account provides him services of both as the customer
 </p>
 
 <p align="center">
-  <img src="latex/GarageAdd/Location.jpg" width="300" title="Garage Add Location Map">
-  <img src="latex/GarageAdd/DetailsFragment1.jpg" width="300" title="Garage Add Details Size Selection">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/GarageAdd/Location.jpg" width="300" title="Garage Add Location Map">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/GarageAdd/DetailsFragment1.jpg" width="300" title="Garage Add Details Size Selection">
   <br>
   <br>
   Figure 12: (a) Garage Add Location Map (b) Garage Add Details Size Selection
@@ -209,9 +209,9 @@ The user selectsParking Location Iconfor getting available garages. By selecting
 the vehicle.
 
 <p align="center">
-  <img src="latex/Location_Selection/search_for_parkinglocations.jpg" width="250" title="Search Location Window">
-  <img src="latex/Location_Selection/showing_space_list_for_adding_vehicles.jpg" width="250" title="Available Space List">
-  <img src="latex/Location_Selection/select_vehicle_for_allocation.jpg" width="250" title="Vehicle Selection">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Location_Selection/search_for_parkinglocations.jpg" width="250" title="Search Location Window">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Location_Selection/showing_space_list_for_adding_vehicles.jpg" width="250" title="Available Space List">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Location_Selection/select_vehicle_for_allocation.jpg" width="250" title="Vehicle Selection">
   <br>
   <br>
   Figure 13: (a) Search Location Window (b) Available Space List (c) Vehicle Selection
@@ -223,8 +223,8 @@ the vehicle.
 The server sends notification to renter and client side when renting time has started and when it is over.
 
 <p align="center">
-  <img src="latex/Notification/notification_showing.jpg" width="300" title="List of Notifications">
-  <img src="latex/Notification/notification.jpg" width="300" title="Single Notification">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Notification/notification_showing.jpg" width="300" title="List of Notifications">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Notification/notification.jpg" width="300" title="Single Notification">
   <br>
   <br>
   Figure 14: (a) List of Notifications (b) Single Notification
@@ -237,8 +237,8 @@ The server sends notification to renter and client side when renting time has st
 When user selects slot for rent, a request is sent to the server and server responses with the confirmation status on user window. Also,Server sends notification to the user with details information about the pre-booking of slot.
 
 <p align="center">
-  <img src="latex/Payment/payment_notification.jpg" width="300" title="Payment Notifications">
-  <img src="latex/Payment/payment_window.jpg" width="300" title="Payment Window">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Payment/payment_notification.jpg" width="300" title="Payment Notifications">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/Payment/payment_window.jpg" width="300" title="Payment Window">
   <br>
   <br>
   Figure 15: (a) Payment Notifications (b) Payment Window
@@ -252,7 +252,7 @@ User will have to confirm his payment. Our payment window has payment methods. A
 The server side processing will be enabled using PHP and MySQL. The administrator has to control the server side. Whenever a new user registers with the app, the record will be stored in the server side database. When the registered user selects the location and vehicle type, immediately server receives the client’s request. After receiving the request for the desired location, server processes the related information and responds accordingly. Furthermore, the administrator has direct option to view user details and slot details stored on the server direct via the application. There will also be a ongoing server written in java which will run threads to see if rent time is starting for a customer or ending and thus sending proper notifications.
 
 <p align="center">
-  <img src="latex/parkin_server.png" title="Server Running">
+  <img src="https://github.com/hridoy100/ParkInAndroid/blob/hridoy/latex/parkin_server.png" title="Server Running">
   <br>
   <br>
   Figure 16: Server Running
